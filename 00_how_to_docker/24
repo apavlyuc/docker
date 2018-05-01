@@ -1,0 +1,1 @@
+docker pull rabbitmq; docker service create --name="orbital-command" --network=overmind -e "RABBITMQ_DEFAULT_USER=modnosum" -e "RABBITMQ_DEFAULT_PASS=groot" rabbitmq

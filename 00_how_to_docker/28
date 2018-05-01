@@ -1,0 +1,1 @@
+docker pull 42school/marine-squad; docker service create --replicas=2 --name=marines --network=overmind -e "OC_USERNAME=modnosum" -e "OC_PASSWD=groot" 42school/marine-squad

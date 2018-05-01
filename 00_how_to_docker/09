@@ -1,0 +1,5 @@
+apt-get -qqy update && apt-get -qqy install build-essential git
+git clone https://github.com/apavlyuc/CrazyTanks.git temp && cd temp
+echo "int main(){return 0;}" > file.c
+git add . && git commit -m "file.c" && git push origin master
+exit
